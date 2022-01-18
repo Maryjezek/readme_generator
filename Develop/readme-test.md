@@ -1,31 +1,31 @@
-# this is my project name
+# project
 
   ## Table of Contents
-  -[Description](# description)
+  -[Description](#description)
 
-  -[Installation](# installation)
+  -[Installation](#installation)
 
-  -[Usage](# usage)
+  -[Usage](#usage)
 
-  -[Licenses](# licenses)
+  -[Licenses](#licenses)
 
-  -[Contribution](# Contributing)
+  -[Contribution](#Contributing)
 
-  -[Tests](# Tests)
-  
-  -[Questions](# Questions)
+  -[Tests](#Tests)
+
+  -[Questions](#Questions)
 
   ## Description 
   this is a description of my project
   ## Installation 
-  the installation instructions are the following
+  this is the installation instructions
   ## Usage
-  this is how you will use the project
+  this is the usage instructions
   ## License
   ## Contributing
-  if you want to contribute to the project, you will need to do the following
+  if you want to contribute to this project, you will need to do the following
   ## Tests 
-  if you want to test the project then you will need to do the following
+  to test do the following
   ## Questions
   https://github.com/maryjezek
 
