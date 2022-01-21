@@ -1,4 +1,4 @@
-# project
+# test test
 
   ## Table of Contents
   -[Description](#description)
@@ -16,16 +16,16 @@
   -[Questions](#Questions)
 
   ## Description 
-  this is a description of my project
+  This project is about generating a readme file
   ## Installation 
-  this is the installation instructions
+  you will need to fork this project 
   ## Usage
-  this is the usage instructions
+  the usage is intuitive
   ## License
   ## Contributing
-  if you want to contribute to this project, you will need to do the following
+  feel free to contribute to this project
   ## Tests 
-  to test do the following
+  test instructions are in development
   ## Questions
   https://github.com/maryjezek
 

@@ -60,9 +60,16 @@ const promptUser = () => {
       message: "Provide any test instructions for your project",
     },
 
-    //to be added
-    //Table of Contents
+  
+    
     //License
+    {
+      type: 'checkbox',
+      name: 'license',
+      message: 'What license would you like to apply? (Check only one to apply)',
+      choices: ['MIT', 'BSD-2-Clause', 'BSD-3-Clause', 'Apache-2.0"', 'GPL-3.0']
+    },
+
 
     //Questions
     //get the gitHUb user name and create a link to it to be added to the ReadMe page
@@ -118,7 +125,7 @@ function writeToFile(fileName, data) {
 function init() {
   promptUser().then((answers) => {
     let markdown = generateMarkdown(answers);
-    writeToFile("readme-test.md", markdown);
+    writeToFile("readme.md", markdown);
   });
 }
 
