@@ -17,17 +17,21 @@
   -[Questions](#Questions)
 
   ## Description 
-  This project is about generating a readme file
-  <img src="./Screenshot 2022.gif"/> 
+  This project is a Node.js Command Line Application that will dynamically generate a readme file.
+  
    ## Installation 
-  you will need to fork this project 
+  You will first need to fork this project repository.  You will then need to download the dependencies which are Inquirer.   
   ## Usage
-  the usage is intuitive
+ You can use the following command to run this application: Node Index
   ## License
+  The application uses the MIT license
   ## Contributing
-  feel free to contribute to this project
+  Feel free to contribute to this project.  I welcome any contributions.
   ## Tests 
-  test instructions are in development
+  test instructions are in development- ToDo
   ## Questions
+  If you have any questions - feel free to reach at Maryjezek@aol.com on GitHub.  
   https://github.com/maryjezek
+
+  <img src="./Screenshot 2022.gif"/> 
 

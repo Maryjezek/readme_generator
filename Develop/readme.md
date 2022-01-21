@@ -1,4 +1,6 @@
-# test test
+# Task manager
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
   ## Table of Contents
   -[Description](#description)
@@ -16,17 +18,18 @@
   -[Questions](#Questions)
 
   ## Description 
-  This project is about generating a readme file
+  this project will be used to help organize daily tasks
   ## Installation 
-  you will need to fork this project 
+  this project is run by using the command node index.js
   ## Usage
-  the usage is intuitive
+  the usage insructions are bring developed
   ## License
+  This application is licensed under: MIT For more information click on badge link above.
   ## Contributing
-  feel free to contribute to this project
+  anyone can contribute to this project
   ## Tests 
-  test instructions are in development
+  test instructions are bring developed for this project
   ## Questions
   https://github.com/maryjezek
-
+  Feel free to contact me at maryjezek@aol.com
 

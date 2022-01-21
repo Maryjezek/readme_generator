@@ -1,14 +1,13 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 const inquirer = require("inquirer");
 //const generatePage = require('./src/page-template');
 const generateMarkdown = require("./utils/generateMarkdown.js");
 const fs = require("fs");
 //const { writeFile, copyFile } = require('./utils/generateMarkdown.js');
 
-// TODO: Create an array of questions for user input
+// Create an array of questions for user input
 const questions = [];
 
-//MB added
 const promptUser = () => {
   return inquirer.prompt([
     {
@@ -60,20 +59,30 @@ const promptUser = () => {
       message: "Provide any test instructions for your project",
     },
 
-  
-    
     //License
     {
-      type: 'checkbox',
-      name: 'license',
-      message: 'What license would you like to apply? (Check only one to apply)',
-      choices: ['MIT', 'BSD-2-Clause', 'BSD-3-Clause', 'Apache-2.0"', 'GPL-3.0']
+      type: "list",
+      name: "license",
+      message:
+        "What license would you like to apply? (Check only one to apply)",
+      choices: [
+        "MIT",
+        "BSD-2-Clause",
+        "BSD-3-Clause",
+        'Apache-2.0"',
+        "GPL-3.0",
+      ],
     },
-
 
     //Questions
     //get the gitHUb user name and create a link to it to be added to the ReadMe page
     //href="https://github.com/${header.github}"
+    {
+      type: "input",
+      name: "email",
+      message: "What is your email address?",
+    },
+
     {
       type: "input",
       name: "github",
@@ -87,25 +96,13 @@ const promptUser = () => {
         }
       },
     },
-    // {
-    //   type: "confirm",
-    //   name: "confirmAbout",
-    //   message:
-    //     'Would you like to enter some information about yourself for an "About" section?',
-    //   default: true,
-    // },
-    // {
-    //   type: "input",
-    //   name: "about",
-    //   message: "Provide some information about yourself:",
-    //   when: ({ confirmAbout }) => confirmAbout,
-    // },
+
   ]);
 };
 
-//MB end
 
-// TODO: Create a function to write README file
+
+// Create a function to write README file
 function writeToFile(fileName, data) {
   return new Promise((resolve, reject) => {
     fs.writeFile(fileName, data, (err) => {
@@ -121,7 +118,7 @@ function writeToFile(fileName, data) {
   });
 }
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
   promptUser().then((answers) => {
     let markdown = generateMarkdown(answers);
