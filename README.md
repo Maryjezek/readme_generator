@@ -23,6 +23,8 @@
   You will first need to fork this project repository.  You will then need to download the dependencies which are Inquirer.   
   ## Usage
  You can use the following command to run this application: Node Index
+ Here is a link demonstrating how to use this node.js application.
+ https://watch.screencastify.com/v/b4SZ0jXLFR3ZoCu2FPGn
   ## License
   The application uses the MIT license
   ## Contributing
